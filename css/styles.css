@@ -1,0 +1,213 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --white:  #FFFFFF;
+
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+body {font-family: var(--main-font);
+    background-color: var(--white);
+    color: var(--dark);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+
+}
+a {text-decoration: none;}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.list {list-style: none;}
+
+.header-logo {font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--dark);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    }
+.header-logo-web {font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--primary-brand);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.header-navigation-item {
+    font-weight: 700;
+    line-height: 1.5;
+    color:  var(--dark);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+.header-navigation-item:hover{
+color: var(--primary-brand);
+text-decoration: none;
+}
+.header-navigation-item:focus {text-decoration: underline;
+    
+}
+/* CURRENT*/
+.current {
+    color: var(--primary-brand);
+}
+.header-contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;}
+
+    .header-contacts:hover, .header-contacts:focus 
+    {color:var(--pressed-state);}
+
+.main-heading-1 {font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--white);
+    letter-spacing: 0.02em;
+}
+.main-button {    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.04em;
+background-color: var(--primary-brand);
+border: none;
+cursor: pointer;
+color: var(--white);
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;}
+
+.main-button:hover, .main-button:focus {
+     background-color: var(--pressed-state);
+        }
+
+.main-background{ 
+    background:  var(--dark);
+}
+
+.main-section-team {
+    background-color: var(--light);
+
+}
+.main-heading-2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    
+}
+
+.main-item {
+   
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+.main-heading-3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color:  var(--dark);
+letter-spacing: 0.02em;
+}
+.main-item-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+.main-item-2 {
+}
+.main-item-3 {
+}
+.main-item-paragraph-2 {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+
+}
+.footer {
+    background:  var(--dark);
+}
+.footer-logo {font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #F4F4FD;
+    text-decoration: none;
+    letter-spacing: 0.03em;}
+.footer-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #E7E9FC;
+    letter-spacing: 0.02em;
+}
+.main-filter-button {display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    cursor: pointer;
+    color: var(--primary-brand);
+    letter-spacing: 0.04em;
+    font-weight: 500;
+line-height: 1.5;
+background-color: var(--light);
+border: 1px solid var(--accent);
+border-radius: 4px;
+font-family: var(--main-font);
+font-size: 16px;
+}
+.main-filter-button:hover, .main-filter-button:focus {
+    background-color: var(--pressed-state);
+    color: var(--white);
+
+}
+
+.portfolio-main-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+.portfolio-main-item {
+
+}
