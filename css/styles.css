@@ -72,6 +72,7 @@ margin: 0 auto;}
 .header {display: flex;
  padding-right: 0px;
 align-items: center;
+border-bottom: 1px solid var(--accent);
 }
 
     
