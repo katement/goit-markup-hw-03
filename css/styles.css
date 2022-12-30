@@ -283,6 +283,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 16px;
 }
 .footer-paragraph {
 font-style: normal;
