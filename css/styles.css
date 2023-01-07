@@ -70,9 +70,7 @@ margin: 0 auto;}
 
   /* HEADER */
 .header {display: flex;
- padding-right: 0px;
 align-items: center;
-border-bottom: 1px solid var(--accent);
 }
 
     
@@ -150,10 +148,9 @@ letter-spacing: 0.02em;
 
 /* HERO */
 .hero-container {
-margin-top: 0px;
 background-color:var(--dark);
-align-items: center;
-padding: 118px 0;
+text-align: center;
+padding: 188px 0;
 
 }
 .main-heading-1 {
@@ -190,13 +187,16 @@ background-color: var(--pressed-state);}
 .main-item-columns
 {display: flex;
 gap: 24px; 
-margin-bottom: 0px;  
 }
 
 /* WHAT WE ARE DOING */
-
+.work {
+    padding-top: 0;
+}
 /* OUR TEAM */
-
+.team {
+    background-color: var(--light);
+}
 .main-heading-2 {
 font-style: normal;
 font-weight: 700;
@@ -226,8 +226,6 @@ font-size: 20px;
 line-height: 1.2;
 color:  var(--dark);
 letter-spacing: 0.02em;
-text-align: center;
-margin-top:32px;
 margin-bottom: 8px;
 }
 
@@ -244,13 +242,17 @@ display: flex;
 gap: 24px;
 margin: 0 auto;
 }
-.team-items{background-color: #FFFFFF;
+.team-items{
+background-color: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
-background: url(man-with-laptop-presenting-something.jpg);
-mix-blend-mode: normal;
+text-align: center;
 }
+.team-content {
+padding-top: 32px;
+padding-bottom: 32px;
 
+}
 .main-item-paragraph-2 {
 font-style: normal;
 font-weight: 400;
@@ -258,7 +260,6 @@ line-height: 1.5;
 color: #434455;
 letter-spacing: 0.02em;
 text-align: center;
-margin-bottom: 32px;
 }
 
 .none {text-align: left;}
@@ -268,8 +269,6 @@ margin-bottom: 32px;
 background-color:  var(--dark);
 padding-top: 100px;
 padding-bottom: 100px;
-padding-left: 156px;
-
 }
 .footer-logo {font-family: var(--secondary-font);
 font-style: normal;
@@ -297,13 +296,16 @@ width: 264px;
 }
 /* PORTFOLIO */
 
-
+.portfolio-main {
+padding-top: 96px; 
+padding-bottom: 0;
+}
 /* FILTERS */
 
 .portfolio-main-filter {display: flex; justify-content: center;
     align-items: center;
 gap: 24px;
-padding-bottom: 72px;}
+margin-bottom: 72px;}
 
 .main-filter-button {margin: 0 auto;
 padding: 12px 24px;
@@ -332,14 +334,19 @@ font-weight: 400;
 line-height: 1.5;
 color: #434455;
 letter-spacing: 0.02em;
+margin-left: 16px;
 }
-
+.gallery {
+    padding: 32px 0px 32px 0px ;
+    border: 1px solid var(--accent);
+    border-top: 0;
+    
+}
 .gallery-list {display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
-justify-content: center;
-align-items: center;}
+}
 
 
 .portfolio-main-heading-3 {font-style: normal;
@@ -348,4 +355,6 @@ font-size: 20px;
 line-height: 1.2;
 color:  var(--dark);
 letter-spacing: 0.02em;
+margin-bottom: 8px;
+margin-left: 16px;
 }
